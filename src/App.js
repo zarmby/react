@@ -1,7 +1,7 @@
 import React from 'react'
 import Counter2 from './components/counter/Counter2'
-import NavBar from './components/Home/NavBar'
-import SideBar from './components/Home/SideBar'
+import NavBar from './components/common/navbar/NavBar'
+import SideBar from './components/common/slidebar/SideBar'
 import Home from './components/Home/Home'
 
 
