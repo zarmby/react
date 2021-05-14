@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.NavBar{
+  background-color: #4c577c;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 55%;
+  width: 100%;
+  min-height: 5vh;
+  box-shadow: 5px 0px 10px black;
+}
+
+.root-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / 2;
+}
+
+.root-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / 3;
+}
+
+.root-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3 / 4;
+}
+
+.SideBar{
+  height:calc(100vh - 80px);
+  display: grid;
+  grid-template-rows: 80px 80px;
+  background-color: #4c577c;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.content{
+  grid-column: 2 / 3;
+}
+
+.element-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+  height: 80px;
+}
+
+.element-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+  height: 80px;
+}
+
+.root-3:hover{
+  background-color: #7887bb;
+}
+
+.root-2:hover{
+  background-color: #7887bb;
+}
+
+.element-2:hover{
+  background-color: #7887bb;
+}
+
+.element-1:hover{
+  background-color: #7887bb;
+}
+
+.desc{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr 1fr;
+}
+
+.picture{
+  grid-column: 1 / 2;
+}
+
+.Description{
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  grid-column: 2 / 3;
+}
+
+.name{
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
