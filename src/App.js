@@ -25,7 +25,7 @@ render(){
       <header className="App-header">
         <NavBar handlePage={this.handlePage}/>
       </header>
-      <div class = "content">
+      <div className = "content">
         <div>
           <SideBar className = "SideBar"></SideBar>
         </div>
