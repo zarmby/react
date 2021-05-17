@@ -25,6 +25,7 @@
 
 .SideBar{
   grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 
 .content{
@@ -33,11 +34,16 @@
 }
 
 .excersises{
-  grid-column: 2 /3;
+  grid-column: 1 /3;
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  margin: 20px 40px;
+  margin: 20;
+}
+
+.desc{
+  margin-top: 20px;
+  grid-column: 1 /3;
 }
 
 .App-link {
