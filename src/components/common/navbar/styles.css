@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-.NavLink{
-    text-decoration: none;
-    color: white;
-}
-
 .NavBar{
   background-color: #4c577c;
   display: grid;
@@ -30,6 +25,7 @@
   align-items: center;
   grid-column: 2 / 3;
   color: white;
+  text-decoration: none;
 }
 
 .ExcersisesPage{
@@ -38,6 +34,7 @@
   align-items: center;
   grid-column: 3 / 4;
   color: white;
+  text-decoration: none;
 }
 
 .SideBar{

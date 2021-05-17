@@ -10,12 +10,12 @@ class NavBar extends React.Component {
     return (
       <div className = "NavBar">
         <div className = "logo"><img src={logo} width = "100%" height = "80px"/></div>
-        <div className = "homePage">
-          <Link to = "/home" className = "NavLink">Home</Link>
-        </div>
-        <div className = "ExcersisesPage" Link to = "/exercises">
-          <Link to = "/exercises" className = "NavLink">exersices</Link>
-        </div>
+        <Link to = "/home" className = "homePage">
+          Home
+        </Link>
+        <Link to = "/exercises" className = "ExcersisesPage">
+          exersices
+        </Link>
       </div>
     );
   }
