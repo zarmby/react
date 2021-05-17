@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.NavLink{
+    text-decoration: none;
+    color: white;
+}
+
 .NavBar{
   background-color: #4c577c;
   display: grid;
@@ -12,25 +17,27 @@
   box-shadow: 5px 0px 10px black;
 }
 
-.root-1{
+.logo{
   display: flex;
   justify-content: center;
   align-items: center;
   grid-column: 1 / 2;
 }
 
-.root-2{
+.homePage{
   display: flex;
   justify-content: center;
   align-items: center;
   grid-column: 2 / 3;
+  color: white;
 }
 
-.root-3{
+.ExcersisesPage{
   display: flex;
   justify-content: center;
   align-items: center;
   grid-column: 3 / 4;
+  color: white;
 }
 
 .SideBar{
@@ -62,11 +69,11 @@
   height: 80px;
 }
 
-.root-3:hover{
+.ExcersisesPage:hover{
   background-color: #7887bb;
 }
 
-.root-2:hover{
+.homePage:hover{
   background-color: #7887bb;
 }
 
