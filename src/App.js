@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 import Counter2 from './components/counter/Counter2';
@@ -19,15 +18,18 @@ render(){
   return (
     <Router>
       <NavBar/>
-      
+
       <div className = "content">
         <Switch>
           <Route path="/home">
             <Home className = "desc"/>
           </Route>
-          <Route path="/exercises">
+          <Route path="/exercises/counter">
             <SideBar className = "SideBar"/>
             <Counter2 className = "excersises" max = {20}/>
+          </Route>
+          <Route path="/*">
+            <Home className = "desc"/>
           </Route>
         </Switch>
       </div>
