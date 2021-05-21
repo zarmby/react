@@ -1,0 +1,16 @@
+.card{
+  width: 38rem;
+}
+
+.container{
+  display: grid;
+  padding: 1rem;
+}
+
+.input-group{
+  height: 1rem;
+}
+
+#TM-add{
+  margin-left: 1rem;
+}
